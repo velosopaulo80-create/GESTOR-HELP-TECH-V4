@@ -1,0 +1,24 @@
+GESTAO HELP-TECH V3.2 - PACOTE DE TESTE / CODIGO-FONTE
+
+IMPORTANTE: nao e APK compilado. Compile no GitHub Actions e teste antes de substituir o app.
+Mantenha o mesmo applicationId br.com.helptech.v3; faca backup dos dados.
+
+IMPLEMENTADO NO CODIGO:
+- Android usa endpoints existentes no Windows V8: GET/POST /api/appointments.
+- Windows V8 revisado adiciona CORS para WebView e preflight OPTIONS.
+- Agendamento local de alerta 1 hora antes com AlarmManager, tela de alarme e prorrogar 30 minutos.
+- Reconhecimento via marcar atendido no Android; registro local do atendimento.
+- Restauracao de agendamentos apos reiniciar aparelho (para alarmes futuros).
+- Layout limitado a tela visivel, sem rolagem na pagina inicial.
+
+LIMITACOES IMPORTANTES:
+- O sincronizador Windows V8 somente sincroniza CRIACAO e CONSULTA de agendamentos.
+- Status de atendido, exclusoes, fluxo de caixa e lucro nao sao sincronizados ao Windows nesta etapa.
+- A chave de sincronizacao e a mesma ja existente no Windows; nao envie a chave em capturas.
+- Android 12+ pode exigir autorizacao de alarmes exatos; Android 13+ notificacoes.
+- Nao Perturbe exige autorizacoes e configuracoes manuais; som nao e garantido em todos os modos.
+- Alarmes sao testes beta e nao devem ser a unica forma de lembrar compromissos criticos.
+- O layout aprovado contem elementos ilustrativos gravados na imagem. Os indicadores dinamicos sao sobrepostos no rodape.
+- NAO TESTADO em aparelho real; build ainda precisa ser validado no GitHub Actions.
+
+WINDOWS: use o arquivo servidor_sync.py revisado do pacote separado; mantenha copia do original.

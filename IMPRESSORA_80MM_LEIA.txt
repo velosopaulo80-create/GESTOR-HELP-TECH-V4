@@ -1,0 +1,7 @@
+HELP-TECH V4.0 — SUPORTE EXPERIMENTAL IMPRESSORA 80 MM
+
+Implementado: permissao BLUETOOTH_CONNECT Android 12+, busca de dispositivos ja pareados, selecao/salvamento do MAC, envio de texto via Bluetooth Classic SPP e comandos ESC/POS, impressao de teste, interface em Configuracoes, exemplo de orcamento simples no modulo Orçamentos, e API JS window.helpTechPrintBudget({number,client,date,items:[{description,qty,price}],validity,notes}).
+
+INSTRUCOES: (1) Pareie a impressora nas configuracoes Bluetooth do celular. (2) No app, Configuracoes > Buscar dispositivos pareados > selecione > Salvar impressora. (3) Imprimir teste. (4) Ajuste 48/32 colunas caso necessario.
+
+LIMITACOES: exige impressora ESC/POS com Bluetooth Classic SPP. Alguns modelos BLE, SDK proprio, codepage diferente ou comandos especiais nao funcionarao. O sistema ainda nao possui modulo completo de orcamentos e nao imprime PDFs, imagens ou logomarca. Os testes reais dependem do modelo de impressora. Nenhum APK foi compilado ou testado neste ambiente.

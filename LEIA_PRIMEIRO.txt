@@ -1,0 +1,24 @@
+GESTÃO HELP-TECH V3 — INTERFACE APROVADA (BETA)
+
+Projeto-fonte Android para compilar pelo GitHub Actions. Não é APK.
+
+1. Extraia o ZIP no computador.
+2. Envie TODO o conteúdo extraído à raiz do repositório GitHub, incluindo .github.
+3. Acesse Actions > Gerar APK Gestao HELP-TECH V3 Beta > Run workflow.
+4. Após o sucesso, baixe Artifacts > Gestao-HelpTech-V3-Beta-APK.
+5. Instale apenas em ambiente de teste. NÃO desinstale o aplicativo anterior.
+
+IMPLEMENTADO NESTA ETAPA:
+- Interface inicial visual igual à arte aprovada, com a logomarca original e botões clicáveis.
+- Login/criação de credenciais no primeiro acesso (implementação Beta existente).
+- Agendamentos, caixa e lucro: formulários e registros locais da Beta.
+- Acesso às configurações e painel de status.
+- Botão Clientes indica que módulo ainda está em desenvolvimento.
+
+LIMITAÇÕES IMPORTANTES:
+- A barra de hora/bateria, avisos e números desenhados na arte são ILUSTRATIVOS, não indicadores reais.
+- O status real aparece sobreposto na parte inferior da tela inicial.
+- A sincronização completa com Windows e a remota ainda NÃO estão prontas.
+- O armazenamento Beta usa WebView localStorage; NÃO é ainda banco SQLite/Room.
+- O código não foi compilado nem testado fisicamente nesta sessão.
+- Não use dados financeiros reais nem substitua a instalação anterior.

@@ -1,0 +1,3 @@
+plugins { id 'com.android.application' }
+android { namespace 'br.com.helptech.v3'; compileSdk 35; defaultConfig { applicationId 'br.com.helptech.v3'; minSdk 26; targetSdk 33; versionCode 3; versionName '4.0-visual-beta' } }
+dependencies { implementation 'androidx.webkit:webkit:1.12.1' }

@@ -1,0 +1,17 @@
+GESTÃO HELP-TECH V4.0 — PRIMEIRA INTEGRAÇÃO VISUAL
+
+Esta entrega contém CÓDIGO-FONTE para compilação via GitHub Actions, não um APK.
+
+INCLUÍDO:
+- Ícone fornecido pelo usuário em resoluções Android.
+- Tela de abertura original por aproximadamente 2 segundos.
+- Tela principal aprovada com sete áreas de toque.
+- Módulos existentes da V3.2 preservados como base: Agendamentos, Fluxo de Caixa, Lucro por Serviço e Configurações.
+- Orçamentos, Clientes e Ordens de Serviço abrem uma página de desenvolvimento, sem inventar funcionalidades prontas.
+
+PENDÊNCIAS:
+- Implementar os três módulos ausentes, integrar os layouts das sete páginas, revisar persistência, sincronização e notificações.
+- Indicadores ilustrativos impressos na imagem do painel ainda não são dados reais.
+- Não instalar sobre o app atual sem backup: mesma applicationId e assinaturas podem diferir.
+
+Para compilar: publique o conteúdo do ZIP na raiz de um repositório GitHub, abra Actions > Gerar APK Gestao HELP-TECH V4.0 Visual Beta > Run workflow; baixe o artifact gerado.
